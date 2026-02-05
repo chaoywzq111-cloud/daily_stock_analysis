@@ -50,7 +50,7 @@ class Config:
     gemini_api_key: Optional[str] = None
     gemini_model: str = "gemini-3-flash-preview"  # 主模型
     gemini_model_3: str ="gemini-3-Flash" #3.0模型
-    gemini_model_fallback: str = "gemini-2.5-flash"  # 备选模型
+    gemini_model_fallback: str = "gemini-3-Flash"  # 备选模型
     gemini_temperature: float = 0.7  # 温度参数（0.0-2.0，控制输出随机性，默认0.7）
     
     # Gemini API 请求配置（防止 429 限流）
